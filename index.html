@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Hermes — личная интеграция помощницы с почтой, календарём, контактами и файлами Google. Описание приложения и обработки данных.">
+  <title>Hermes — личный помощник для Google</title>
+  <style>
+    :root{color-scheme:light;--paper:#f7f7f2;--ink:#18231f;--muted:#49564f;--accent:#00634f;--line:#c4cdc5;--notice:#fff1c9}
+    *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--paper);color:var(--ink);font:22px/1.65 Arial,Helvetica,sans-serif}a{color:var(--accent);text-underline-offset:.2em}a:focus-visible{outline:3px solid var(--ink);outline-offset:5px}a:hover{text-decoration-thickness:3px}.wrap{width:min(100% - 48px,1040px);margin-inline:auto}.skip{position:absolute;left:24px;top:-100px;background:white;padding:12px}.skip:focus{top:12px;z-index:3}header{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:28px 0;border-bottom:1px solid var(--line)}.wordmark{font:700 32px Georgia,'Times New Roman',serif;letter-spacing:-.04em}.small{font-size:18px;color:var(--muted)}header a{padding:8px 0;min-height:44px}.review{margin-top:28px;padding:20px 24px;background:var(--notice);border:1px solid #a4781b;font-size:18px}.review strong{display:block;color:#4e3600}.review p{margin:6px 0 0}main{padding:54px 0 28px}h1,h2{font-family:Georgia,'Times New Roman',serif;font-weight:700;line-height:1.13;letter-spacing:-.035em}h1{font-size:clamp(40px,5.6vw,66px);max-width:15ch;margin:12px 0 28px}h2{font-size:clamp(30px,3.5vw,40px);margin:0 0 20px}.eyebrow{color:var(--accent);font-size:18px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.lead{max-width:42ch;font-size:25px;line-height:1.55;margin:0 0 28px}.button{display:inline-flex;align-items:center;min-height:52px;padding:12px 22px;border:2px solid var(--accent);font-size:20px;font-weight:700;text-decoration:none}.button:hover{background:var(--accent);color:white}section{padding:46px 0;border-top:1px solid var(--line);margin-top:46px}p{max-width:70ch}dl{display:grid;grid-template-columns:minmax(170px,1fr) 2.7fr;gap:18px 32px;margin:28px 0 0}dt{font-weight:700}dd{margin:0;color:var(--muted)}ol,ul{padding-left:1.3em;max-width:65ch}li+li{margin-top:14px}footer{padding:28px 0 40px;border-top:1px solid var(--line);font-size:18px;color:var(--muted)}footer p{margin:8px 0}.footlinks{display:flex;gap:24px;flex-wrap:wrap}@media(max-width:680px){.wrap{width:calc(100% - 32px)}header{align-items:flex-start;flex-direction:column;gap:6px;padding:20px 0}body{font-size:21px}.lead{font-size:23px}main{padding-top:36px}dl{display:block}dt{margin-top:24px}dd{margin-top:6px}.review{padding:16px}section{padding-top:32px;margin-top:32px}}@media print{body{background:white;font-size:12pt}.wrap{width:100%}.skip{display:none}header,footer{padding:12px 0}.review{background:white}h1{font-size:32pt}h2{font-size:22pt}section{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <div class="wrap">
+    <header>
+      <div><div class="wordmark">Hermes</div><div class="small">Личная интеграция с Google</div></div>
+      <nav aria-label="Навигация"><a href="privacy.html">Конфиденциальность</a></nav>
+    </header>
+    <main id="main">
+      <div class="eyebrow">Описание приложения</div>
+      <h1>Личный помощник для работы с Google.</h1>
+      <p class="lead">Hermes помогает владельцу работать со своей почтой, календарём, контактами, документами и таблицами по понятным запросам в чате.</p>
+      <p>Это личная настройка на базе Hermes Agent, а не общедоступный сервис. Здесь нет регистрации и формы входа. Эта страница объясняет назначение приложения; она сама не получает доступ к аккаунту Google.</p>
+      <a class="button" href="privacy.html">Как обрабатываются данные</a>
+      <section aria-labelledby="services">
+        <h2 id="services">Зачем нужны разрешения</h2>
+        <dl>
+          <dt>Почта</dt><dd>Поиск и чтение писем, подготовка и отправка сообщений, работа с метками и состоянием писем по поручению владельца.</dd>
+          <dt>Календарь</dt><dd>Просмотр расписания, создание, перенос и изменение событий, удаление событий по подтверждённому поручению.</dd>
+          <dt>Контакты</dt><dd>Поиск имён и контактных данных — только чтение. Изменение и удаление контактов в этой настройке не запрашиваются.</dd>
+          <dt>Диск</dt><dd>Поиск и чтение доступных файлов, загрузка и организация файлов, изменения по поручению владельца в пределах его прав.</dd>
+          <dt>Документы</dt><dd>Чтение, создание и редактирование документов для согласованной задачи.</dd>
+          <dt>Таблицы</dt><dd>Чтение, создание и обновление таблиц для согласованной задачи.</dd>
+        </dl>
+      </section>
+      <section aria-labelledby="control">
+        <h2 id="control">Управление остаётся у владельца</h2>
+        <ol>
+          <li>Доступ к аккаунту подтверждается на странице Google. Пароль и коды входа не вводятся на этом сайте.</li>
+          <li>Владелец задаёт задачу в своём чате. Помощница настроена запрашивать явное подтверждение перед отправкой писем и изменениями данных.</li>
+          <li>Доступ можно отозвать в настройках подключений аккаунта Google. Для удаления ранее сохранённой истории нужны отдельные действия.</li>
+        </ol>
+      </section>
+      <section aria-labelledby="processing">
+        <h2 id="processing">Не всё остаётся только на компьютере</h2>
+        <p>Файлы доступа и локальная история находятся в экземпляре Hermes владельца. При выполнении задачи выбранные сообщения, результаты инструментов и ответы могут обрабатываться поставщиком искусственного интеллекта и передаваться через чат.</p>
+        <p>В текущей настройке используются OpenAI и Telegram. Точные границы обработки, хранения и отзыва доступа описаны в <a href="privacy.html">политике конфиденциальности</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <div class="footlinks"><a href="privacy.html">Политика конфиденциальности</a><a href="#main">К началу страницы</a></div>
+      <p>Личная неофициальная интеграция на базе Hermes Agent. Не является сервисом Google.</p>
+      <p>Редакция от 10 ноября 2026 года.</p>
+    </footer>
+  </div>
+</body>
+</html>
